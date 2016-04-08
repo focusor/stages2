@@ -269,11 +269,11 @@ function getEle(id) {
     btn.onclick = function() {
         var inputText = document.getElementById('input').value.replace(/^\s|\s+$/g, '').toLowerCase();
         if (inputText == "tun lef") {
-            rotate('lef');
+            rotate('tunlef');
         } else if(inputText == "tun rig") {
-            rotate('rig');
+            rotate('tunrig');
         } else if(inputText == "tun bac") {
-            rotate('bac');
+            rotate('tunbac');
         } else if(inputText == "go") {
           tran();
         } else if(inputText == "tra lef") {
